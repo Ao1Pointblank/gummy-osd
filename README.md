@@ -24,3 +24,6 @@ Use gummy to control screen brightness/temp on Cinnamon DE (with OSD notificatio
  - Increase Brightness: ``./gummy-osd.sh brightness up``
  - Decrease Backlight: ``./gummy-osd.sh backlight down``
  - Reset Temperature to Default: ``./gummy-osd.sh temperature reset``
+
+
+![Screenshot from 2024-09-02 15-43-35](https://github.com/user-attachments/assets/06855c79-4447-45ef-affb-e8ff13d11cd9)
