@@ -144,8 +144,15 @@ fi
 # Write the updated value back to the file
 echo "$VALUE" > "$VALUE_FILE"
 
+# Convert temperature value to percentage for OSD
+if [ "$1" == "temperature" ]; then
+    PERCENTAGE=$(( ( (VALUE - 1000) * 100 ) / (6500 - 1000) ))
+else
+    PERCENTAGE=$VALUE
+fi
+
 # Update the OSD display
-update_osd "$ICON" "$VALUE"
+update_osd "$ICON" "$PERCENTAGE"
 
 # Adjust the settings using gummy
 case "$1" in
