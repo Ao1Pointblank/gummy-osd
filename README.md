@@ -1,3 +1,5 @@
+# Progress is continued with XSCT as the backend, here: https://github.com/Ao1Pointblank/xsct-cinnamon-wrappers 
+
 # gummy-osd
 Use gummy to control screen brightness/temp on Cinnamon DE (with OSD notification)
 
